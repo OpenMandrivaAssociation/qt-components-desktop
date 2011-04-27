@@ -9,6 +9,7 @@ License:	LGPL
 Group:		Development/KDE and Qt
 Url:		http://qt.gitorious.org/qt-components/desktop
 Source0:	%{name}-%{version}.tar.bz2
+BuildRequires:	qt4-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:	noarch
 
