@@ -5,9 +5,9 @@ Summary:	A Desktop Qt Quick Component
 Name:		qt-components-desktop
 Version:	%gitversion
 Release:	%mkrel 1
-License:	GPLv2+
-Group:		System/Configuration/Boot and Init
-Url:		http://qt.gitorious.org/qt-components
+License:	LGPL
+Group:		Development/KDE and Qt
+Url:		http://qt.gitorious.org/qt-components/desktop
 Source0:	%{name}-%{version}.tar.bz2
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
