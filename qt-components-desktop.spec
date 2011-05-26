@@ -1,4 +1,4 @@
-%define gitversion 20110413
+%define gitversion 20110526
 
 
 Summary:	A Desktop Qt Quick Component
@@ -15,7 +15,7 @@ BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 %description
 This contains the research on desktop components for QML.
 
-These files are used by MCC2 infrastructure.
+These files are used by MCC2 and MPM infrastructure.
 
 %prep
 %setup -q
@@ -26,11 +26,10 @@ qmake
 
 %install
 rm -rf %buildroot
-mkdir -p %{buildroot}/%_datadir/mandriva/mcc2/frontends/users/views
-mkdir -p %{buildroot}/%_datadir/mandriva/mcc2/frontends/services/views
-cp -R components %{buildroot}/%{_datadir}/mandriva/mcc2/frontends/users/views/
-cp -R components %{buildroot}/%{_datadir}/mandriva/mcc2/frontends/services/views/
+mkdir -p %{buildroot}/%_datadir/mandriva/qt-components/desktop
+cp -R components %{buildroot}/%{_datadir}/mandriva/qt-components/desktop
+cp -R examples %{buildroot}/%{_datadir}/mandriva/qt-components/desktop
 
 %files
 %defattr(-,root,root)
-%_datadir/mandriva/mcc2/frontends/
+%_datadir/mandriva/qt-components
