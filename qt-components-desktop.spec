@@ -1,4 +1,4 @@
-%define gitversion 20110526
+%define gitversion 20110608
 
 
 Summary:	A Desktop Qt Quick Component
