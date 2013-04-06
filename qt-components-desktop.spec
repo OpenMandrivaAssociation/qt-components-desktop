@@ -1,10 +1,10 @@
 %define gitversion 20110608
-
+%define debug_package %{nil}
 
 Summary:	A Desktop Qt Quick Component
 Name:		qt-components-desktop
 Version:	%gitversion
-Release:	%mkrel 2
+Release:	3
 License:	LGPL
 Group:		Development/KDE and Qt
 Url:		http://qt.gitorious.org/qt-components/desktop
