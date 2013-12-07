@@ -4,7 +4,7 @@
 Summary:	A Desktop Qt Quick Component
 Name:		qt-components-desktop
 Version:	%gitversion
-Release:	6
+Release:	7
 License:	LGPL
 Group:		Development/KDE and Qt
 Url:		http://qt.gitorious.org/qt-components/desktop
