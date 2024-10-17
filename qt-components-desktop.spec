@@ -7,7 +7,7 @@ Version:	%{gitversion}
 Release:	12
 License:	LGPLv2
 Group:		Development/KDE and Qt
-Url:		http://qt.gitorious.org/qt-components/desktop
+Url:		https://qt.gitorious.org/qt-components/desktop
 Source0:	%{name}-%{version}.tar.bz2
 Source1:	qt-components-desktop.rpmlintrc
 BuildRequires:	qt4-devel
