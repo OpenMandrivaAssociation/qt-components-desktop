@@ -10,6 +10,7 @@ Group:		Development/KDE and Qt
 Url:		https://qt.gitorious.org/qt-components/desktop
 Source0:	%{name}-%{version}.tar.bz2
 Source1:	qt-components-desktop.rpmlintrc
+BuildRequires:	make
 BuildRequires:	qt4-devel
 
 %description
